@@ -23,7 +23,7 @@ const DetailsPage = () =>{
          <h3 className={styles.title}>{productDetail.title}</h3>
          <p className={styles.description}>{productDetail.description}</p>
          <p className={styles.category}> <SiOpenproject/> {productDetail.category}</p>
-      </div>
+      
      
       
       
@@ -33,7 +33,7 @@ const DetailsPage = () =>{
       
           </div>
       </div> 
-     
+     </div>
   </>
 }
 

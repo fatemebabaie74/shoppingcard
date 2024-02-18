@@ -32,7 +32,7 @@ const clickHandler =(type)=>{
       <h3>{shortenText(title)}</h3>
       <p>{price} $</p>
       <div className={styles.actions}>
-        <Link to={`products/${id}`}>
+        <Link to={`/products/${id}`}>
             <TbListDetails/>
         </Link>
         <div> 
